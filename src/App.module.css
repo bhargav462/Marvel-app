@@ -1,0 +1,101 @@
+.header{
+    /* background-color: black; */
+    /* color: white; */
+}
+
+body{
+    background-color: #dcdfe3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.search-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box{
+    color: #c2c2c2;
+}
+
+.search-input{
+    margin-right: 5%;
+    height: 20px;   
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: medium;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards-container > *{
+    /* flex-basis: 20% */
+    flex: 1 1 30%;
+}
+
+.card-container{
+    margin: 20px;
+    background-color: white;
+    color: black;       
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 10px #c2c2c2;
+}
+
+.image-container img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.card-content{
+    padding: 20px;
+}
+
+.name{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.marvel-container{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marvel-container img{
+    height: 50px;
+}
+
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+/* @media screen and (max-width: 1000px) {
+    .cards-container > *{
+        flex-basis: 28%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .cards-container > *{
+        flex-basis: 40%;
+    }
+}
+*/
+@media screen and (max-width: 500px) {
+    .cards-container > *{
+        flex-basis: 100%;
+    } 
+}

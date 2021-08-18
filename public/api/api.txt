@@ -1,0 +1,11 @@
+1) to get the characters of marvel
+
+  https://gateway.marvel.com/v1/public/characters?ts=1&apikey=257ba12696ea123873ccb4ff19326ea8&hash=79650ef57d02897ea4298210e0735c65
+
+2) to get the images
+
+  https://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784/portrait_xlarge.jpg
+
+  docs : https://developer.marvel.com/documentation/images
+
+  add the image variant and the extension to the thumbnail
